@@ -11,6 +11,8 @@ Possuo conhecimentos em JavaScript, SQL, HTML, CSS e Git, e busco evoluir contin
 
 Atualmente desenvolvendo projetos práticos para aprofundar conhecimentos e aplicação técnica em cenários reais.
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mariahelenagdemoraes/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Smariahelenamoraes986@gmail.com)
 
 ---
 <h3 align="center">🤖 Linguagens e Tecnologias</h3>
