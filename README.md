@@ -1,3 +1,6 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=B069DB&section=header"/>
+
+
 #  👩🏾‍💻 Maria Helena
 
 **`🚀 Estudante de ADS | Desenvolvimento de Software, Dados e Automação`**
@@ -10,31 +13,12 @@ Atualmente desenvolvendo projetos práticos para aprofundar conhecimentos e apli
 
 
 ---
-
-### 🤖 Linguagens e Tecnologias
-
-<p>
-  <img alt="HTML" title="HTML" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
-  <img alt="CSS" title="CSS" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
-  <img alt="JavaScript" title="JavaScript" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
-  <img alt="Git" title="Git" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
-  <img alt="MySQL" title="MySQL" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/>
-</p>
-
-<br/>
-<br/>
-
-### 📊 Estatísticas
+<h3 align="center">🤖 Linguagens e Tecnologias</h3>
 
 <p align="center">
-  <img 
-    height="200" 
-    src="https://github-readme-stats.vercel.app/api?username=MariaHGMoraes&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
-  />
-  
-  <img 
-    height="200" 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=MariaHGMoraes&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
-  />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,git,mysql"  width="250" />
+  </a>
 </p>
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=B069DB&section=footer"/>
