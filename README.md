@@ -23,4 +23,12 @@ Atualmente desenvolvendo projetos práticos para aprofundar conhecimentos e apli
   </a>
 </p>
 
+<br>
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats-two-nu-4enfq389jr.vercel.app/api?username=MariaHGMoraes&rank_icon=github&show_icons=true&theme=nightowl&count_private=true">
+  <img height="180" src="https://github-readme-stats-two-nu-4enfq389jr.vercel.app/api/top-langs/?username=MariaHGMoraes&layout=compact&theme=nightowl&count_private=true">
+  <img align="center" alt="Top Language" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MariaHGMoraes&theme=nightowl"/>
+</div>
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=B069DB&section=footer"/>
