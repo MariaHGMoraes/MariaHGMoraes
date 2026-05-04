@@ -31,4 +31,5 @@ Atualmente desenvolvendo projetos práticos para aprofundar conhecimentos e apli
   <img align="center" alt="Top Language" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MariaHGMoraes&theme=nightowl"/>
 </div>
 
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=B069DB&section=footer"/>
