@@ -1,152 +1,125 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Maria — Design, Web e Dados</title>
+  <desc id="desc">Banner pessoal com identidade visual lilás, elementos de design e programação.</desc>
 
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#063F3C"/>
-      <stop offset="0.55" stop-color="#0F766E"/>
-      <stop offset="1" stop-color="#14B8A6"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#171326"/>
+      <stop offset="48%" stop-color="#29204A"/>
+      <stop offset="100%" stop-color="#4C2A70"/>
     </linearGradient>
 
-    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#A7F3D0"/>
-      <stop offset="1" stop-color="#5EEAD4"/>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6D4AFF" stop-opacity=".18"/>
+      <stop offset="50%" stop-color="#C4B5FD" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#FB7185" stop-opacity=".18"/>
     </linearGradient>
 
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.18"/>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#F9A8D4"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10"/>
     </filter>
+
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#C4B5FD" stroke-width="1" opacity=".10"/>
+    </pattern>
   </defs>
 
-  <!-- BACKGROUND -->
-  <rect width="1200" height="360" rx="24" fill="url(#background)"/>
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="320" rx="22" fill="url(#grid)"/>
 
-  <!-- GRID -->
-  <g opacity="0.16">
-    <path d="M40 40H300M40 80H300M40 120H300M40 160H300M40 200H300"/>
-    <path d="M40 40V200M80 40V200M120 40V200M160 40V200M200 40V200M240 40V200M280 40V200"/>
+  <!-- Decorative glows -->
+  <circle cx="90" cy="55" r="105" fill="#8B5CF6" opacity=".28" filter="url(#softGlow)"/>
+  <circle cx="1100" cy="65" r="115" fill="#F472B6" opacity=".22" filter="url(#softGlow)"/>
+  <circle cx="1025" cy="285" r="100" fill="#A78BFA" opacity=".14" filter="url(#softGlow)"/>
+
+  <!-- Soft organic shapes -->
+  <circle cx="72" cy="62" r="76" fill="#8B5CF6" opacity=".25"/>
+  <circle cx="1110" cy="58" r="92" fill="#F9A8D4" opacity=".22"/>
+
+  <!-- Bottom waves -->
+  <path d="M0 245 C150 205 250 285 410 244 C560 206 650 220 790 245 C945 274 1050 214 1200 240 L1200 320 L0 320 Z"
+        fill="url(#wave)"/>
+  <path d="M0 275 C160 235 270 300 430 270 C585 241 700 252 840 276 C985 300 1080 255 1200 270 L1200 320 L0 320 Z"
+        fill="#0F0B1C" opacity=".30"/>
+
+  <!-- Left code symbol -->
+  <g fill="none" stroke="url(#accent)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M255 83 L205 133 L255 183"/>
+    <path d="M315 83 L365 133 L315 183"/>
+    <path d="M295 72 L275 194"/>
   </g>
 
-  <!-- ORGANIC SHAPES -->
-  <circle cx="90" cy="80" r="110" fill="#14B8A6" opacity="0.35"/>
-  <circle cx="1120" cy="45" r="150" fill="#A7F3D0" opacity="0.30"/>
-  <circle cx="1050" cy="310" r="170" fill="#5EEAD4" opacity="0.18"/>
+  <!-- Small sparkle -->
+  <path d="M145 48 L151 63 L166 69 L151 75 L145 90 L139 75 L124 69 L139 63 Z"
+        fill="#F9A8D4"/>
 
-  <path
-    d="M0 285C150 230 260 330 400 275C530 220 620 270 760 245C920 215 1050 255 1200 190V360H0V285Z"
-    fill="#042F2C"
-    opacity="0.32"
-  />
+  <!-- Editorial line -->
+  <path d="M62 215 C125 180 170 235 230 205 C250 195 265 188 286 190"
+        fill="none" stroke="#C4B5FD" stroke-width="2" opacity=".8"/>
+  <circle cx="62" cy="215" r="4" fill="#F9A8D4"/>
+  <circle cx="286" cy="190" r="4" fill="#A78BFA"/>
 
-  <!-- LEFT CODE SYMBOL -->
-  <g transform="translate(290 72)" stroke="#A7F3D0" stroke-width="5" stroke-linecap="round">
-    <path d="M38 0L0 38L38 76"/>
-    <path d="M82 0L120 38L82 76"/>
-    <path d="M68 8L50 68"/>
+  <!-- Main typography -->
+  <text x="600" y="137"
+        text-anchor="middle"
+        font-family="Georgia, sans-serif"
+        font-size="76"
+        font-weight="700"
+        letter-spacing="-1.5"
+        fill="#FFFFFF">Maria</text>
+
+  <text x="600" y="176"
+        text-anchor="middle"
+        font-family="Georgia, sans-serif"
+        font-size="19"
+        font-weight="500"
+        letter-spacing="4"
+        fill="#E9D5FF">Design · Web · Dados</text>
+
+  <!-- Divider -->
+  <g stroke="url(#accent)" stroke-width="2">
+    <path d="M420 208 H555"/>
+    <path d="M645 208 H780"/>
   </g>
+  <path d="M600 198 L610 208 L600 218 L590 208 Z" fill="#F9A8D4"/>
 
-  <!-- LEFT DECORATIVE LINE -->
-  <path
-    d="M55 245C120 215 145 220 190 235C220 245 245 250 285 230"
-    stroke="#A7F3D0"
-    stroke-width="2"
-    opacity="0.8"
-  />
+  <!-- Terminal window -->
+  <g transform="translate(875 72)">
+    <rect x="0" y="0" width="245" height="142" rx="16" fill="#11101C" stroke="#A78BFA" stroke-width="2"/>
+    <rect x="0" y="0" width="245" height="34" rx="16" fill="#19172A"/>
+    <circle cx="20" cy="17" r="5" fill="#FB7185"/>
+    <circle cx="39" cy="17" r="5" fill="#FBBF24"/>
+    <circle cx="58" cy="17" r="5" fill="#34D399"/>
 
-  <circle cx="55" cy="245" r="5" fill="#A7F3D0"/>
-  <circle cx="285" cy="230" r="5" fill="#A7F3D0"/>
-
-  <!-- SMALL SPARKLES -->
-  <g fill="#A7F3D0">
-    <path d="M190 75L196 92L213 98L196 104L190 121L184 104L167 98L184 92Z"/>
-    <path d="M1010 85L1015 99L1029 104L1015 109L1010 123L1005 109L991 104L1005 99Z"/>
-    <path d="M925 265L930 278L943 283L930 288L925 301L920 288L907 283L920 278Z"/>
-  </g>
-
-  <!-- MAIN NAME -->
-  <text
-    x="600"
-    y="155"
-    text-anchor="middle"
-    font-family="Poppins, Arial, sans-serif"
-    font-size="82"
-    font-weight="700"
-    fill="#FFFFFF"
-    letter-spacing="-2"
-  >
-    Maria
-  </text>
-
-  <!-- SUBTITLE -->
-  <text
-    x="600"
-    y="205"
-    text-anchor="middle"
-    font-family="Poppins, Arial, sans-serif"
-    font-size="22"
-    font-weight="400"
-    fill="#D1FAE5"
-    letter-spacing="4"
-  >
-    Design · Web · Dados
-  </text>
-
-  <!-- EDITORIAL LINE -->
-  <line
-    x1="465"
-    y1="235"
-    x2="735"
-    y2="235"
-    stroke="#5EEAD4"
-    stroke-width="2"
-  />
-
-  <path
-    d="M590 235L600 225L610 235L600 245Z"
-    fill="#A7F3D0"
-  />
-
-  <!-- CODE WINDOW -->
-  <g transform="translate(875 105)" filter="url(#shadow)">
-
-    <rect
-      width="230"
-      height="145"
-      rx="14"
-      fill="#052E2B"
-      stroke="#5EEAD4"
-      stroke-width="2"
-    />
-
-    <!-- WINDOW HEADER -->
-    <circle cx="22" cy="22" r="6" fill="#FB7185"/>
-    <circle cx="42" cy="22" r="6" fill="#FBBF24"/>
-    <circle cx="62" cy="22" r="6" fill="#34D399"/>
-
-    <!-- CODE -->
     <g stroke-linecap="round">
-      <line x1="25" y1="58" x2="105" y2="58" stroke="#A7F3D0" stroke-width="5"/>
-      <line x1="25" y1="78" x2="160" y2="78" stroke="#5EEAD4" stroke-width="5"/>
-      <line x1="25" y1="98" x2="125" y2="98" stroke="#A7F3D0" stroke-width="5"/>
-      <line x1="25" y1="118" x2="180" y2="118" stroke="#14B8A6" stroke-width="5"/>
+      <path d="M22 57 H83" stroke="#C4B5FD" stroke-width="4"/>
+      <path d="M22 82 H135" stroke="#A78BFA" stroke-width="4"/>
+      <path d="M22 107 H103" stroke="#F9A8D4" stroke-width="4"/>
+      <path d="M22 129 H160" stroke="#C4B5FD" stroke-width="4"/>
     </g>
-
   </g>
 
-  <!-- BOTANICAL ELEMENT -->
-  <g transform="translate(1040 205)" stroke="#A7F3D0" stroke-width="3" fill="none">
+  <!-- Cursor -->
+  <path d="M838 205 L870 217 L858 224 L870 239 L861 245 L849 229 L838 237 Z"
+        fill="#F9A8D4"/>
 
-    <path d="M0 105C12 65 35 35 60 0"/>
-
-    <path d="M20 70C-5 62 -10 42 5 30C27 35 31 52 20 70Z"/>
-    <path d="M34 47C20 28 27 10 45 5C55 22 50 38 34 47Z"/>
-    <path d="M48 25C43 8 54 -5 70 0C72 14 63 24 48 25Z"/>
-
+  <!-- Botanical accent -->
+  <g fill="none" stroke="#C4B5FD" stroke-width="2.2" stroke-linecap="round">
+    <path d="M1082 246 C1090 220 1105 201 1124 181"/>
+    <path d="M1097 218 C1082 211 1076 200 1080 190 C1091 192 1099 202 1097 218 Z"/>
+    <path d="M1108 202 C1110 187 1119 178 1130 176 C1132 187 1124 198 1108 202 Z"/>
+    <path d="M1090 232 C1077 229 1069 220 1069 211 C1081 211 1089 219 1090 232 Z"/>
   </g>
 
-  <!-- SMALL CURSOR -->
-  <path
-    d="M805 265L825 295L835 280L850 285L855 275L840 270L850 258Z"
-    fill="#A7F3D0"
-  />
-
+  <!-- Sparkles -->
+  <path d="M1015 225 L1021 239 L1035 245 L1021 251 L1015 265 L1009 251 L995 245 L1009 239 Z"
+        fill="#C4B5FD"/>
+  <path d="M790 54 L795 65 L806 70 L795 75 L790 86 L785 75 L774 70 L785 65 Z"
+        fill="#F9A8D4"/>
 </svg>
