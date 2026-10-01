@@ -1,0 +1,152 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#063F3C"/>
+      <stop offset="0.55" stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#A7F3D0"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="1200" height="360" rx="24" fill="url(#background)"/>
+
+  <!-- GRID -->
+  <g opacity="0.16">
+    <path d="M40 40H300M40 80H300M40 120H300M40 160H300M40 200H300"/>
+    <path d="M40 40V200M80 40V200M120 40V200M160 40V200M200 40V200M240 40V200M280 40V200"/>
+  </g>
+
+  <!-- ORGANIC SHAPES -->
+  <circle cx="90" cy="80" r="110" fill="#14B8A6" opacity="0.35"/>
+  <circle cx="1120" cy="45" r="150" fill="#A7F3D0" opacity="0.30"/>
+  <circle cx="1050" cy="310" r="170" fill="#5EEAD4" opacity="0.18"/>
+
+  <path
+    d="M0 285C150 230 260 330 400 275C530 220 620 270 760 245C920 215 1050 255 1200 190V360H0V285Z"
+    fill="#042F2C"
+    opacity="0.32"
+  />
+
+  <!-- LEFT CODE SYMBOL -->
+  <g transform="translate(290 72)" stroke="#A7F3D0" stroke-width="5" stroke-linecap="round">
+    <path d="M38 0L0 38L38 76"/>
+    <path d="M82 0L120 38L82 76"/>
+    <path d="M68 8L50 68"/>
+  </g>
+
+  <!-- LEFT DECORATIVE LINE -->
+  <path
+    d="M55 245C120 215 145 220 190 235C220 245 245 250 285 230"
+    stroke="#A7F3D0"
+    stroke-width="2"
+    opacity="0.8"
+  />
+
+  <circle cx="55" cy="245" r="5" fill="#A7F3D0"/>
+  <circle cx="285" cy="230" r="5" fill="#A7F3D0"/>
+
+  <!-- SMALL SPARKLES -->
+  <g fill="#A7F3D0">
+    <path d="M190 75L196 92L213 98L196 104L190 121L184 104L167 98L184 92Z"/>
+    <path d="M1010 85L1015 99L1029 104L1015 109L1010 123L1005 109L991 104L1005 99Z"/>
+    <path d="M925 265L930 278L943 283L930 288L925 301L920 288L907 283L920 278Z"/>
+  </g>
+
+  <!-- MAIN NAME -->
+  <text
+    x="600"
+    y="155"
+    text-anchor="middle"
+    font-family="Poppins, Arial, sans-serif"
+    font-size="82"
+    font-weight="700"
+    fill="#FFFFFF"
+    letter-spacing="-2"
+  >
+    Maria
+  </text>
+
+  <!-- SUBTITLE -->
+  <text
+    x="600"
+    y="205"
+    text-anchor="middle"
+    font-family="Poppins, Arial, sans-serif"
+    font-size="22"
+    font-weight="400"
+    fill="#D1FAE5"
+    letter-spacing="4"
+  >
+    Design · Web · Dados
+  </text>
+
+  <!-- EDITORIAL LINE -->
+  <line
+    x1="465"
+    y1="235"
+    x2="735"
+    y2="235"
+    stroke="#5EEAD4"
+    stroke-width="2"
+  />
+
+  <path
+    d="M590 235L600 225L610 235L600 245Z"
+    fill="#A7F3D0"
+  />
+
+  <!-- CODE WINDOW -->
+  <g transform="translate(875 105)" filter="url(#shadow)">
+
+    <rect
+      width="230"
+      height="145"
+      rx="14"
+      fill="#052E2B"
+      stroke="#5EEAD4"
+      stroke-width="2"
+    />
+
+    <!-- WINDOW HEADER -->
+    <circle cx="22" cy="22" r="6" fill="#FB7185"/>
+    <circle cx="42" cy="22" r="6" fill="#FBBF24"/>
+    <circle cx="62" cy="22" r="6" fill="#34D399"/>
+
+    <!-- CODE -->
+    <g stroke-linecap="round">
+      <line x1="25" y1="58" x2="105" y2="58" stroke="#A7F3D0" stroke-width="5"/>
+      <line x1="25" y1="78" x2="160" y2="78" stroke="#5EEAD4" stroke-width="5"/>
+      <line x1="25" y1="98" x2="125" y2="98" stroke="#A7F3D0" stroke-width="5"/>
+      <line x1="25" y1="118" x2="180" y2="118" stroke="#14B8A6" stroke-width="5"/>
+    </g>
+
+  </g>
+
+  <!-- BOTANICAL ELEMENT -->
+  <g transform="translate(1040 205)" stroke="#A7F3D0" stroke-width="3" fill="none">
+
+    <path d="M0 105C12 65 35 35 60 0"/>
+
+    <path d="M20 70C-5 62 -10 42 5 30C27 35 31 52 20 70Z"/>
+    <path d="M34 47C20 28 27 10 45 5C55 22 50 38 34 47Z"/>
+    <path d="M48 25C43 8 54 -5 70 0C72 14 63 24 48 25Z"/>
+
+  </g>
+
+  <!-- SMALL CURSOR -->
+  <path
+    d="M805 265L825 295L835 280L850 285L855 275L840 270L850 258Z"
+    fill="#A7F3D0"
+  />
+
+</svg>
