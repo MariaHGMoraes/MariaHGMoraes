@@ -1,9 +1,16 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:C4B5FD,100:FB7185&height=200&section=header&text=Maria&fontSize=64&fontColor=FFFFFF&fontAlignY=38&desc=Design%20%C2%B7%20Web%20%C2%B7%20Dados&descSize=18&descAlignY=58" width="100%" alt="Maria — Design, Web e Dados" />
+<img
+  src="./profile/header.svg"
+  width="100%"
+  alt="Maria — Design, Web e Dados"
+/>
+<br />
 
 <a href="https://github.com/MariaHGMoraes">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=8B5CF6&center=true&vCenter=true&width=640&height=40&lines=Do+design+ao+c%C3%B3digo.;Aprendendo+a+construir+interfaces.;E+a+entender+dados." alt="Do design ao código. Aprendendo a construir interfaces e a entender dados." />
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Poppins&size=18&pause=150&color=C4B5FD&center=true&vCenter=true&multiline=true&repeat=false&width=650&height=90&lines=Do+design+ao+c%C3%B3digo.;Aprendendo+a+construir+interfaces.;E+a+entender+dados."
+    alt="Do design ao código. Aprendendo a construir interfaces. E a entender dados."
+  />
 </a>
 
 </div>
