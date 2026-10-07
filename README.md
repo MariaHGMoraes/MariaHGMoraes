@@ -1,128 +1,64 @@
-<div align="center">
-<img
-  src="./profile/header.svg"
-  width="100%"
-  alt="Maria — Design, Web e Dados"
-/>
-<br />
+<p align="center">
+  <img src="./profile/header.png" width="100%" alt="Maria — Tecnologia, Dados e Análise"/>
+</p>
 
-<a href="https://github.com/MariaHGMoraes">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Poppins&size=18&pause=150&color=C4B5FD&center=true&vCenter=true&multiline=true&repeat=false&width=650&height=90&lines=Do+design+ao+c%C3%B3digo.;Aprendendo+a+construir+interfaces.;E+a+entender+dados."
-    alt="Do design ao código. Aprendendo a construir interfaces. E a entender dados."
-  />
-</a>
+## 👋 Sobre mim
 
-</div>
+Sou profissional em transição para a área de Tecnologia, com foco em Dados. Venho construindo minha base em Análise de Dados e desenvolvendo conhecimentos em SQL, Excel, Python e ferramentas de visualização de dados.
 
-<br />
+Minha trajetória em Design e Tecnologia me trouxe uma combinação que considero um diferencial: olhar analítico, organização visual, atenção aos detalhes e facilidade para transformar informações complexas em algo claro e compreensível.
 
-## Sobre mim
+Atualmente, direciono meus estudos para análise, tratamento e interpretação de dados, buscando transformar informações em insights que apoiem decisões e gerem valor para o negócio.
 
-Sou estudante de **Análise e Desenvolvimento de Sistemas (ADS)** e estou construindo minha base em programação. Hoje, meu foco está em **desenvolvimento web** e **dados**.
+## 📚 O que estou estudando
 
-Venho do **Design**, e isso muda a forma como olho para uma interface: gosto de organização visual, de clareza e de resolver problemas com criatividade.
+**Análise de Dados**
+- SQL
+- Excel
+- Python
+- Tratamento e análise de dados
+- Visualização de dados
 
-Atualmente, estou aberta a oportunidades de estágio e posições júnior em Tecnologia.
+**Fundamentos**
+- Lógica de programação
+- Git & GitHub
 
-<br />
+**Na prática**
+- Exercícios e estudos aplicados
+- Construção do meu portfólio em Dados
 
-## O que estou estudando
+## 🛠️ Tecnologias e ferramentas
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>Web</strong><br /><br />
-      <img src="https://skillicons.dev/icons?i=html,css,js" alt="HTML5, CSS3 e JavaScript" /><br /><br />
-      HTML5 • CSS3 • JavaScript<br />
-      Lógica de Programação
-    </td>
-    <td width="33%" valign="top">
-      <strong>Dados</strong><br /><br />
-      <img src="https://skillicons.dev/icons?i=python,mysql" alt="Python e MySQL" /><br /><br />
-      SQL • Python • MySQL
-    </td>
-    <td width="33%" valign="top">
-      <strong>Ferramentas</strong><br /><br />
-      <img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm" alt="Git, GitHub, Visual Studio Code e PyCharm" /><br /><br />
-      Git • GitHub<br />
-      Visual Studio Code • PyCharm
-    </td>
-  </tr>
-</table>
+### 📊 Dados & Análise
 
-<br />
+<p align="left">
+  <img src="./imagem/excel.svg" width="40" height="40" alt="Excel" title="Excel"/>
+  <img src="./imagem/sheets.svg" width="40" height="40" alt="Google Planilhas" title="Google Planilhas"/>
+  <img src="https://skillicons.dev/icons?i=python" width="40" height="40" alt="Python" title="Python"/>
+  <img src="https://skillicons.dev/icons?i=mysql" width="40" height="40" alt="MySQL" title="MySQL"/>
+</p>
 
-## Design + Tecnologia
+### 💻 Desenvolvimento
 
-Meu background em Design complementa a minha formação técnica. Ele me ajuda a desenvolver:
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html" width="40" height="40" alt="HTML5" title="HTML5"/>
+  <img src="https://skillicons.dev/icons?i=css" width="40" height="40" alt="CSS3" title="CSS3"/>
+  <img src="https://skillicons.dev/icons?i=js" width="40" height="40" alt="JavaScript" title="JavaScript"/>
+</p>
 
-- **Pensamento visual**, para enxergar a estrutura de uma tela;
-- **Sensibilidade para interfaces** e para a experiência de quem as usa;
-- **Organização** e **atenção aos detalhes**;
-- **Criatividade** na construção de soluções.
+### 🔧 Ferramentas
 
-Estou levando essa bagagem para a Tecnologia, sem deixar de estudar a base técnica.
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=git" width="40" height="40" alt="Git" title="Git"/>
+  <img src="https://skillicons.dev/icons?i=github" width="40" height="40" alt="GitHub" title="GitHub"/>
+  <img src="https://skillicons.dev/icons?i=vscode" width="40" height="40" alt="VS Code" title="VS Code"/>
+  <img src="https://skillicons.dev/icons?i=pycharm" width="40" height="40" alt="PyCharm" title="PyCharm"/>
+</p>
 
-<br />
+## 🎨 Design + Dados
 
-## Projetos
+Minha trajetória em Design influencia a forma como trabalho com tecnologia e dados.
 
-Estou construindo projetos enquanto avanço nos estudos de programação.
+Tenho um olhar atento para organização visual, detalhes e comunicação, e gosto de transformar informações em algo mais claro e fácil de entender.
 
-| Projeto | Descrição | Tecnologias | Links |
-| :-- | :-- | :-- | :-- |
-| **maria-em-codigo-blog** | Blog pessoal em construção, onde estou consolidando meus conhecimentos em HTML e CSS. JavaScript entra em breve. | HTML5 • CSS3 | [Repositório](https://github.com/MariaHGMoraes/maria-em-codigo-blog) |
-
-<!--
-Modelo para o próximo projeto: copie uma nova linha na tabela acima.
-
-| **Nome do projeto** | Descrição em uma linha | Tecnologias utilizadas | [Repositório](URL_DO_REPOSITORIO) · [Demo](URL_DA_DEMO) |
--->
-
-<br />
-
-## GitHub Stats
-
-<div align="center">
-
-<table>
-  <tr>
-    <td>
-      <img
-        height="160"
-        src="./profile/stats.svg"
-        alt="Estatísticas do GitHub de Maria"
-      />
-    </td>
-    <td>
-      <img
-        height="160"
-        src="./profile/top-langs.svg"
-        alt="Linguagens mais utilizadas por Maria"
-      />
-    </td>
-  </tr>
-</table>
-
-</div>
-
-<br />
-
-
-## Contato
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Open%20to%20Work-Est%C3%A1gio%20e%20posi%C3%A7%C3%B5es%20j%C3%BAnior%20em%20Tecnologia-8B5CF6?style=flat-square" alt="Open to Work: estágio e posições júnior em Tecnologia" />
-
-<br /><br />
-
-<a href="https://www.linkedin.com/in/mariahelenagdemoraes/">
-  <img src="https://img.shields.io/badge/LinkedIn-Maria-C4B5FD?style=flat-square&logo=linkedin&logoColor=1F2328" alt="LinkedIn de Maria" />
-</a>
-<a href="https://github.com/MariaHGMoraes">
-  <img src="https://img.shields.io/badge/GitHub-MariaHGMoraes-C4B5FD?style=flat-square&logo=github&logoColor=1F2328" alt="GitHub de Maria" />
-</a>
-
-</div>
+Acredito que essa combinação entre análise e comunicação visual pode ser um diferencial na forma de apresentar dados e contar histórias através deles.
